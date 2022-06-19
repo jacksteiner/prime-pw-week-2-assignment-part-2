@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We made a variable called "name" and input "Dane" 
+// Then we said if the name input is "Mary" display "How do you do?"
+// the input name was not Mary, so "How do you do?" is displayed
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
+// Defined a string and a number as "secret" and "code"
+// code =123 * 2 now secret is super
+// 246 is lesser than 250 so it is NOT duper so console.log is super
 // 
-// 
-// 
-//
 
 //CODE
 /*
@@ -70,10 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Defined numbers and a boolean
+// If your are a student and your zip is less than 80000 display "Youre a student on the west coast"
+// if youre not a stundent and your age is less than 30 display "what are your hobbies"
+// if youre a stundet display "welcome to prime!"
+// if non above are true display "How about the weather"
 
 //CODE
 /*
@@ -134,6 +135,7 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//FIX - need to define "mix" let mix = red + blue
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -159,6 +161,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
 
 if(minAge <= age) {
   console.log('no entry');
