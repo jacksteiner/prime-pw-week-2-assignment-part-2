@@ -92,6 +92,8 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 
+// result from code is "What are your hobbies?"
+
 */
 
 
@@ -135,9 +137,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-//FIX - need to define "mix" let mix = red + blue
+//FIX
 if (mix === true) {
-  colorOne = 'purple';
+  purple = (color0ne + colorTwo);
 }
 */
 
@@ -152,6 +154,8 @@ const time = 4;
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
+
+// || should be && because both conditions need to be true
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -168,5 +172,15 @@ if(minAge <= age) {
 } else {
   console.log('enter');
 }
+
+FIXED CODE:
+
+if( age <= minAge){
+  console.log('no entry');
+} else {
+  console.log('enter');
+}
+
+
 */
 
